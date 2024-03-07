@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Skills</h1>
+    <div class="skills-columns">
+        <div class="column" *ngFor="let skillGroup of skillsGrouped">
+            <section *ngFor="let skill of skillGroup">
+                <label>
+                    <input type="checkbox"  disabled />
+                    {{ skill.name }}
+                </label>
+            </section>
+        </div>
+    </div>
+</div>
+

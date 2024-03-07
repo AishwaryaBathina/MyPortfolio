@@ -1,0 +1,16 @@
+<div class = "container">
+    <h1>Academic Projects</h1>
+
+    <section *ngFor = "let pro of projects">
+        <h2>{{pro.title}}</h2>
+
+        <h3>
+            <span> Technology: </span>
+            <span> {{pro.technologies}}</span>
+        </h3>
+
+        <ul *ngFor = "let desc of pro.description">
+            <li>{{desc}}</li>
+        </ul>
+    </section>
+</div>

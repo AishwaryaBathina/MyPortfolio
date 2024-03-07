@@ -1,0 +1,60 @@
+:host {
+    display: block;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+
+section {
+    margin-top: 1rem;
+    background-color: #1f1f1f; /* Slightly lighter than the background for contrast */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners as in the image */
+}
+
+.skills-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adds a gap between columns */
+}
+
+.column {
+    flex: 1;
+    min-width: calc(50% - 1rem); /* Adjust the width for a two-column layout, subtracting the gap */
+}
+
+label {
+    display: flex;
+    align-items: center; /* Aligns the checkbox and the text vertically */
+    gap: 0.5rem; /* Spacing between the checkbox and the skill name */
+}
+
+input[type="checkbox"] {
+    accent-color: var(--green); /* Green color for the checkbox */
+}
+
+input[type="checkbox"]:checked:before {
+    content: '✓';
+    color: var(--green); /* Green checkmark color */
+    position: absolute;
+    left: 3px;
+    font-size: 1.5em;
+}
+
+/* Styles for the checkboxes and labels */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1.2em; /* Fixed width and height */
+    height: 1.2em;
+    background: transparent;
+    border: 2px solid var(--green); /* Green border */
+    border-radius: 0.2em;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--green); /* Green background for checked state */
+    cursor: default;
+}

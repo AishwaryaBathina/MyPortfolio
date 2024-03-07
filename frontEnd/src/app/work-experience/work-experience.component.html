@@ -1,0 +1,15 @@
+<div class = "container">
+    <h1>Professional Experience</h1>
+    <ul>
+        <li *ngFor = "let exp of experience">
+            <h2 style="margin-top: 0.2rem;">{{exp.designation}}</h2>
+            <h3 style="margin-top: 0.2rem;">{{exp.organization}}</h3>
+            <h5 style="margin-top: 0.2rem;">{{exp.technology}}</h5>
+            <h4 style="margin-top: 0.2rem;">{{exp.duration}}</h4>
+            <ul>
+                <li *ngFor = "let desc of exp.description">{{desc}}</li>
+            </ul>
+
+        </li>
+    </ul>
+</div>
