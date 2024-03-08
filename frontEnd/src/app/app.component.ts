@@ -7,14 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontEnd';
-  // isMobileView = false;
-
-  // ngOnInit() {
-  //   this.checkScreenSize();
-  // }
-
-  // checkScreenSize() {
-  //   this.isMobileView = window.innerWidth <= 768;
-  // }
-
 }

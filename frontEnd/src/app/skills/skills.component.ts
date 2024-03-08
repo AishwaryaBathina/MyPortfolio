@@ -38,6 +38,8 @@ export class SkillsComponent implements OnInit {
     "name": "OpenShift"
   },{
     "name": "Postman"
+  },{
+    "name": "GraphQL"
   }];
   
   skillsPerColumn = Math.ceil(this.skill.length / 2);
