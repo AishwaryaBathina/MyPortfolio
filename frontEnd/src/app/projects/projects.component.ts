@@ -58,6 +58,16 @@ export class ProjectsComponent implements OnInit {
         "Achieved an 86% accuracy rate through training"
       ]
     },
+    {
+      title: "Social Media App",
+      technologies: "MERN Stack",
+      description:[
+        "Built a MERN Social Media Application implementing responsive design with React and Material-UI (MUI). ",
+      "Developed the backend from scratch using Node.js, Express, and MongoDB, including middleware setup, data modelling, and JWT-based authentication. ",
+        "Created a responsive frontend using React, Redux, and Material-UI, featuring a dark mode and color themes. ",
+"Built key components such as the Navbar, registration/login pages, home page with widgets, and post widgets, culminating in a fully functional social media application. "
+      ]
+    },
   ]
 
   constructor() { }
